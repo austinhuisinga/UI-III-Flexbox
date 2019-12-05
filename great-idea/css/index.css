@@ -73,6 +73,7 @@ nav {
 nav a {
   color: lightgray;
   text-decoration: none;
+  font-size: 14px;
 }
 
 nav a:hover {
@@ -129,19 +130,18 @@ nav a:hover {
 	border-top: 1px solid;
 	padding-top: 2.5%;
 	margin: 5%;
-	display: inline-block;
+	display: flex;
 }
 
 .features {
-
-	width: 50%;
-	float: left;
+	display: flex;
+	flex-direction: column;
+	margin-right: 2%;	
 }
 
 .about {
-
-	width: 50%;
-	float: right;
+	display: flex;
+	flex-direction: column;
 }
 
 .mid-img {
