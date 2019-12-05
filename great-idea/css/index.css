@@ -64,21 +64,24 @@ h1, h2, h3, h4, h5 {
 }
 /* End of reset */
 nav {
-	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	/* text-align: center; */
 }
 nav a {
-  color: gray;
+  color: lightgray;
   text-decoration: none;
-  display: inline-block;
+  /* display: flex; 
+  display: inline-block; */
   margin: 0 1%;
-  padding: 2%;
+  padding: 2%; 
 }
 
 nav a:hover {
 	animation-name: bg;
 	animation-duration: 750ms;
 	animation-fill-mode: forwards;
-	color: white;
+
 }
 
 @keyframes bg {
