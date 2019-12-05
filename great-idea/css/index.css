@@ -145,32 +145,36 @@ nav a:hover {
 }
 
 .mid-img {
-	margin: 0 auto;
-	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .s-p-v {
 	margin: 5%;
+	display: flex;
 }
 
 .services {
-	width: 33%;
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	margin-right: 2%;
 }
 
 .product {
-	width: 33%;
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	margin-right: 2%;
 }
 
 .vision {
-	width: 33%;
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 }
 
 .contact {
 	margin: 5%;
-	padding-top: 3%;
+	padding-top: 2.5%;
 	border-top: 1px solid black;
 }
 
