@@ -70,13 +70,13 @@ nav {
 	flex-flow: row wrap;
 	margin-bottom: 3%;
 }
-nav a {
+.hov{
   color: lightgray;
   text-decoration: none;
   font-size: 14px;
 }
 
-nav a:hover {
+.hov:hover {
 	animation-name: bg;
 	animation-duration: 750ms;
 	animation-fill-mode: forwards;
