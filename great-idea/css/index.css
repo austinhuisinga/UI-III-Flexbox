@@ -183,3 +183,30 @@ footer {
 }
 /* End index.html styling. Start services.html styling.*/
 
+.div-services-header-img {
+	display: flex;
+	justify-content: center;
+}
+
+.services-services {
+	margin: 5%;
+	padding-bottom: 4%;
+	border-bottom: 1px solid black;
+}
+.services-services h1{
+	font-size: 27px;
+}
+
+.services-list-container {
+	margin: 5%;
+	display: flex;
+}
+
+.digital-design {
+	display: flex;
+	flex-direction: column;
+}
+
+.facts {
+	margin: 5%;
+}
