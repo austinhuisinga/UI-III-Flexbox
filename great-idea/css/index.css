@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -198,15 +196,49 @@ footer {
 }
 
 .services-list-container {
-	margin: 5%;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
 }
 
-.digital-design {
+.services-list-container div {
+	width: 45%;
 	display: flex;
 	flex-direction: column;
+	border: 1px solid black;
+	justify-content: space-around;
+}
+
+.digital-design {	
+	
+}
+
+.ux-ui {
+
+}
+
+.digital-marketing {
+
+}
+
+.web-development {
+	
+}
+
+.ios-development {
+
+}
+
+.android-development {
+
 }
 
 .facts {
 	margin: 5%;
 }
+
+ul {
+	list-style-type: square;
+	line-height: 175%;
+  }
