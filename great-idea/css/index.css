@@ -243,4 +243,36 @@ ul {
 	list-style-type: square;
 	line-height: 175%;
 	margin-left: 25px;
-  }
+	}
+	
+	/* Contact */
+
+.div-contact-header-img {
+	display:flex;
+	margin-bottom: 2%;
+}
+
+.contact-container {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.contact-form {
+	display: flex;
+	justify-content: flex-start;
+}
+
+form {
+	margin-top: 1%;
+	padding-top: 1%;
+	border-top: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+form button {
+	margin-top: 2%;
+	width: 20%;
+}
+

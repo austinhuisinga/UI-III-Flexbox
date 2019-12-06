@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="contact-container">
     <header>
       <nav>
         <a href="services.html" class="hov">Services</a>
@@ -40,23 +40,23 @@
   
     <section>
       <div class="contact-form">
-        <!-- <form action="/submit-name"><input type="text" placeholder="Name"></form>
-        <input type="text" placeholder="Phone"></form>
-        <form action="/submit-email"><input type="text" placeholder="Email"></form>
-        <form action="/submit-address"><input type="text" placeholder="Address"></form> -->
         <form action="/submit-information">
-          <input type="text" placeholder="Name" required>
-          <input type="text" placeholder="Phone" required>
-          <input type="text" placeholder="Email" required>
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Name" required>
+          
+          <label for="phone">Phone</label>
+          <input id="phone" type="text" placeholder="Phone" required>
+          
+          <label for="email">Email</label>
+          <input id="email" type="text" placeholder="Email" required>
+          
+          <label for="address">Address</label>
           <input type="text" placeholder="Address">
+
           <button type="submit">Submit</button>
         </form>
       </div>
     </section>
-  
-  
-  
   </div>
-
 </body>
 </html>
