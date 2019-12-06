@@ -199,7 +199,6 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	
 }
 
 .services-list-container div {
@@ -208,34 +207,37 @@ footer {
 	flex-direction: column;
 	border: 1px solid black;
 	justify-content: space-around;
+	background-color: #f3f3f3;
+	margin-bottom: 3%;
+	padding: 3%;
 }
 
-.digital-design {	
+.services-list-container div button {
+	display: flex;
+	border: solid 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 30%;
+	border-right: ;
+	margin-top: 20px;
+	text-decoration: none;
+	line-height: 10px;
+	border-radius: 15%;
+}
+
+.bottom-sec-container {
+	
 	
 }
 
-.ux-ui {
-
-}
-
-.digital-marketing {
-
-}
-
-.web-development {
-	
-}
-
-.ios-development {
-
-}
-
-.android-development {
-
+.bottom-sec-container div {
+	width: 50%;
 }
 
 .facts {
-	margin: 5%;
+	
 }
 
 ul {
