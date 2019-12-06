@@ -224,23 +224,31 @@ footer {
 	margin-top: 20px;
 	text-decoration: none;
 	line-height: 10px;
-	border-radius: 15%;
+	border-radius: 10px;
 }
 
 .bottom-sec-container {
-	
+	border-top: 1px solid black;
+	padding: 4%;
+	display: flex;
+	justify-content: space-between;
 	
 }
 
 .bottom-sec-container div {
-	width: 50%;
+	max-width: 45%;
 }
 
 .facts {
 	
 }
 
+.div-services-info-img {
+	
+}
+
 ul {
 	list-style-type: square;
 	line-height: 175%;
+	margin-left: 25px;
   }
